@@ -60,7 +60,7 @@ function promptQuestion(){
   choiceArray=[];
   characterLength= parseInt(prompt("Please provide the length of the password (it must be at least 8 and no more than 128 characters)."));
   if (isNaN(characterLength)||characterLength<8 ||characterLength>128) {
-    window.alert("The length of password must be at least 8 and no more than 128.");
+    window.alert("The length of password must be at least 8 and no more than 128. Please provide valid answer.");
     return false;
   }
   if(confirm("Please confirm that whether or not to include lowercase, uppercase, numeric, and special characters")){
