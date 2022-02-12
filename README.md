@@ -16,6 +16,6 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page 
 ## image
-https://github.com/oliviakim96/password-generator/blob/main/images/screencapture.png
+![img]https://github.com/oliviakim96/password-generator/blob/main/images/screencapture.png
 ## url
 https://oliviakim96.github.io/password-generator/
